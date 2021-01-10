@@ -1,0 +1,13 @@
+.all-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.head-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 95%;
+}
