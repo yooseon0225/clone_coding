@@ -1,13 +1,66 @@
-.all-menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 99%;
+.header {
+    position: fixed;
+    width: 100%;
 }
 
 .head-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+.cell {
+    display: flex;
+    justify-content: space-around;
+    width: 87%;
+}
+
+.cell-1 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.cell-1 img {
+    padding-top: 15px;
+}
+
+
+.cell-2 {
+    flex-basis: 70%;
+}
+
+ul {
     list-style: none;
-    width: 95%;
+}
+
+
+.menu {
+    text-transform: uppercase;  /* 소문자 -> 대문자로 전환 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 60px;
+}
+
+.arrow {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.arrow li{
+    margin-left: 5px;
+}
+
+.img-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.img-menu menu {
+    margin-left: 30px;
 }
