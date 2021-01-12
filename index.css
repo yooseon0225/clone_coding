@@ -1,8 +1,4 @@
-.header {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-}
+
 
 .head-menu {
     display: flex;
@@ -72,3 +68,27 @@ ul {
 .menu:hover {
     color: #e7be8e;
 }
+
+.m-brand::before {
+    content: '';
+    width: 8px; /* 사이즈 */
+    height: 8px; /* 사이즈 */
+    border-top: 1.5px solid #121212; /* 선 두께 */
+    border-right: 1.5px solid #121212; /* 선 두께 */
+    display: inline-block;
+    transform: rotate(135deg); /* 각도 */
+    position: relative;
+    left: 80px;
+    bottom: 4px;
+}
+.brand-line::after {
+    content: '';
+    width: 1px;
+    height: 50px;
+    display: inline-block;
+    border-right: 0.2px solid #e0e0e0;
+    position: relative;
+    bottom: 35px;
+    left: 107px;
+}
+
