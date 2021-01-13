@@ -10,7 +10,7 @@
 .cell {
     display: flex;
     justify-content: center;
-    width: 93%;
+    width: 94%;
     margin-left: auto;
     margin-right:auto;
 }
@@ -25,7 +25,7 @@
 
 
 .cell-2 {
-    flex-basis: 63%;
+    flex-basis: 64%;
     margin-right: 0;
 }
 
@@ -41,23 +41,13 @@ ul {
     padding-top: 4px;
 }
 
-.arrow {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-}
 
-.arrow li{
-    margin-left: 5px;
-}
 
 .img-menu {
     list-style: none;
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin-left: 20px;
 }
 
 .img-menu .small-menu{
@@ -65,7 +55,7 @@ ul {
     padding-left: 20px;
 }
 
-.menu:hover {
+.m-brand:hover {
     color: #e7be8e;
 }
 
@@ -81,14 +71,24 @@ ul {
     left: 80px;
     bottom: 4px;
 }
-.brand-line::after {
-    content: '';
-    width: 1px;
-    height: 50px;
-    display: inline-block;
-    border-right: 0.2px solid #e0e0e0;
-    position: relative;
-    bottom: 35px;
-    left: 107px;
+
+
+.h-product {
+    margin-left: 15px;
 }
 
+.m-big {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.m-small {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #7a7a7a;
+}
+.m-small:hover {
+    transition: all 0.5s ease;
+    padding-left: 7px;
+    color: #e7be8e;
+}
