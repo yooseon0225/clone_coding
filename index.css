@@ -72,6 +72,11 @@ ul {
     bottom: 4px;
 }
 
+.m-title:hover {
+    color: #e7be8e;
+    transition: all 0.3s ease;
+}
+
 
 .h-product {
     margin-left: 15px;
@@ -80,15 +85,37 @@ ul {
 .m-big {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.m-middle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #7a7a7a;
+
+}
+.m-middle:hover {
+    transition: all 0.5s ease;
+    padding-left: 6.5px;
+    color: #e7be8e;
 }
 
 .m-small {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: #7a7a7a;
 }
+
 .m-small:hover {
-    transition: all 0.5s ease;
-    padding-left: 7px;
     color: #e7be8e;
+}
+
+.flex-brand {
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: stretch;
 }
