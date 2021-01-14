@@ -8,7 +8,6 @@
 text-transform: uppercase;
 ```
 
-* * *
 #### 부모와 관계없이 위치 지정
 ```
 position: absolute;
@@ -21,7 +20,6 @@ position: relative;
 ```
 flex-basis
 ```
-* * *
 #### 요소의 콘텐프 시작부분에 생성된 콘텐를 추가한다
 ```
 ::before
@@ -30,6 +28,7 @@ flex-basis
 ```
 ::after
 ```
-* * *
 #### transition을 사용하는 이유
 ##### 지정할 속성에 변화나 움직임을 주고 싶은 경우, 일정 시간 간격을 두고 속성에 변화 혹은 부드럽게 해주는 기능
+
+
