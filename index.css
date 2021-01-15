@@ -1,10 +1,13 @@
 
-
+header {
+    border-bottom: 0.8px solid #c8c8c8;
+}
 .head-menu {
     display: flex;
     justify-content: space-between;
     /* width: 85%; */
     padding: 0;
+
 }
 
 .cell {
@@ -92,18 +95,21 @@ ul {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #7a7a7a;
+    padding-right:35px;
 
 }
 .m-middle:hover {
-    transition: all 0.5s ease;
-    padding-left: 6.5px;
+    transition: all 0.3s ease-in-out;
     color: #e7be8e;
+    padding-left: 10px;
 }
 
 .m-small {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     color: #7a7a7a;
+    width: 50px;
+
 }
 
 .m-small:hover {
@@ -111,11 +117,21 @@ ul {
 }
 
 .flex-brand {
+    margin-top: 65px;
     width: 99%;
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-    align-content: stretch;
+    justify-content: space-around;
+    /* opacity: 0;
+    visibility: hidden; */
+}
+
+
+
+.menu-in {
+    margin-left: 60px;
+}
+
+.menu li:hover .flex-brand{
+    opacity: 1;
+    visibility: visible;
 }
