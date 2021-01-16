@@ -1,7 +1,4 @@
 
-header {
-    border-bottom: 0.8px solid #c8c8c8;
-}
 .head-menu {
     display: flex;
     justify-content: space-between;
@@ -123,6 +120,8 @@ ul {
     justify-content: space-around;
     /* opacity: 0;
     visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
 }
 
 
@@ -131,7 +130,7 @@ ul {
     margin-left: 60px;
 }
 
-.menu li:hover .flex-brand{
+.m-brand:hover .flex-brand{
     opacity: 1;
     visibility: visible;
 }

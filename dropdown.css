@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-menu {
+    float: left;
+    border: 1px solid red;
+}
+
+#main-menu li a {
+    font-size: 0.85rem;
+    display: block;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+#main-menu li:nth-child(1) a {
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+
+.sub-menu {
+    position: absolute;
+    background: #182952;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sub-menu li {
+    padding: 16px 28px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.sub-menu li a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+
+#main-menu li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
