@@ -44,3 +44,17 @@ hidden: 숨김 (자신의 영역은 계속 차지)
 collapse: 겹치도록 지정
 inherit: 부모 요소의 값을 상속
 ```
+
+##### flex-direction
+```
+flex 컨테이너에 flex-direction 속성을 지정하면 flex 항목이 나열되는 방향을 변경
+
+row 혹은 row-reverse를 선택하면 주축은 인라인 방향으로 행을 따른다.
+
+column 혹은 column-reverse 을 선택하면 주축은 페이지 상단에서 하단으로 블록 방향을 따른다.
+
+교차축은 주축에 수직하므로, 만약 flex-direction(주축)이 row 나 row-reverse 라면 교차축은 열 방향을 따른다.
+
+주축이 column 혹은 column-reverse 라면 교차축은 행 방향을 따른다.
+
+```
