@@ -58,3 +58,18 @@ column 혹은 column-reverse 을 선택하면 주축은 페이지 상단에서 �
 주축이 column 혹은 column-reverse 라면 교차축은 행 방향을 따른다.
 
 ```
+
+##### 축약형 속성 flex
+```
+flex-basis 속성은 항목의 크기를 결정
+기본값은 auto이다.
+
+flex-grow 속성은 값을 양수로 지정하면 flex 항목별로 주축 방향 크기가 flex-basis 값 이상으로 늘어날 수 있게 된다.
+
+flex-shrink 속성은 주축의 공간이 부족할때 각 항목의 사이즈를 줄이는 방법
+
+flex 컨테이너가 flex 항목을 모두 포함할 만큼 넉넉한 공간을 갖고 있지 않고 flex-shrink 값이 양수이면 flex 항목은 flex-basis에 지정된 크기보다 작아진다. 또한, flex-grow 속성과 마찬가지로 더 큰 flex-shrink 값을 갖는 항목의 사이즈가 더 빨리 줄어듭니다.
+
+flex-grow, flex-shrink, flex-basis 값을 각각 사용하지 않고 이 세 속성을 한번에 지정하는 flex 축약형을 많이 사용한다.
+
+```

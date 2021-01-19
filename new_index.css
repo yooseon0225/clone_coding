@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+}
+
+header {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.cell {
+    display: flex;
+}
+    
+.cell-1 {
+    flex: 3;
+    text-align: left;
+    
+}
+
+.cell-1 img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+.cell-2 {
+    flex: 7;
+}
+
+.menu-box {
+    display: flex;
+}
+
+.menu-box li {
+    flex: 2 auto;
+    text-transform: uppercase;  /* 소문자 -> 대문자로 전환 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.menu-box-img {
+    display: flex;
+}
+
+.menu-box-img li {
+    flex: 1 auto;
+}
+
+.cell-2 li:hover {
+    color: #e7be8e;
+    transition: all 0.2s;
+}
