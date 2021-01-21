@@ -8,6 +8,16 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    border-bottom: rgb(128, 128, 128);
+}
+
+
 ul {
     list-style: none;
 }
@@ -44,7 +54,7 @@ header {
     display: flex;
 }
 
-.menu-box li {
+.menu-box li {   
     flex: 2 1 auto;
     text-transform: uppercase;  /* 소문자 -> 대문자로 전환 */
     font-family: 'Poppins', sans-serif;
@@ -62,20 +72,13 @@ header {
     margin-right: 20px;
 }
 
-.menu-brand:hover {
-    color: #e7be8e;
-    transition: all 0.2s;
-}
-
 
 
 .big-menu {
-    display: flex;
-    flex: 1 auto;
+    /* display: flex;
+    flex: 1 auto; */
     padding: 0;
     margin: 0;
-    opacity: 0;
-    visibility: hidden;
 }
 
 .big-menu li {
@@ -85,6 +88,7 @@ header {
 }
 
 .middle-menu {
+    
     margin-top: 20px;
     padding: 0;
 }
@@ -97,7 +101,20 @@ header {
     margin: 0;
 }
 
-.menu-brand li:hover .big-menu {
-    opacity: 1;
-    visibility: visible;
+.menu-brand:hover {
+    color: #e7be8e;
+    transition: all 0.2s;
+}
+
+.menu-box li {
+    position: relative;
+}
+
+.big-menu {
+    display: none;
+    position: absolute;
+}
+
+.menu-box li:hover .big-menu {
+    display: block;
 }
