@@ -17,6 +17,9 @@ header {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    background:linear-gradient(white 60px, rgba(255, 202, 202, 0.5) 50px, rgba(255, 111, 111, 0.5));
+    height: 60px; 
+    overflow: hidden;
 
 }
 
@@ -36,7 +39,8 @@ ul {
     
 .cell-1 {
     flex: 3;
-    text-align: left;  
+    text-align: left; 
+     
 }
 
 
@@ -45,9 +49,8 @@ ul {
     text-align: left;
 }
 
-.cell-1 a {
-    display: table-cell;
-    vertical-align: middle;
+.cell-1 img {
+    margin-top: 10px;
 }
 
 .menu-box {
@@ -125,6 +128,8 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+
 
 .menu-text:hover {
     color: #e7be8e;
