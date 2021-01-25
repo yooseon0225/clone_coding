@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
 </head>
-<body>
+<body onload="showImg()">
     <header>
         <div class="cell">
             <div class="cell-1">
@@ -147,26 +147,18 @@
     </header>
 
     <div>
-        <p><img src="./images/main_img01.jpg" alt="이미지"></p>
+        <p><button  class="leftButton BB" onclick="changePic(0)"><img src="https://www.maxclinic.com/img/slide-right-btn.png" alt="이전"></button></p>
+        <p><img id="photo" src="./images/main_img01.jpg" alt="이미지"></p>
         <p>
-            <button onclick="changePic(0)">이전</button>
-            <button onclick="changePic(1)">다음</button>
+            <button class="rightButton BB" onclick="changePic(1)"><img src="https://www.maxclinic.com/img/slide-right-btn.png" alt="다음"></button>
         </p>
     </div>
-    <script>
-        var num = 1;
+    <script src="img_slider.js"></script>
 
-        function changePic(idx) {
-            if (idx) {
-                if (num == 3) return;
-                num++;
-            } else {
-                if(num == 1) return;
-                num--;
-            }
-            var imgTag = document.getElementById("photo");
-            imgTag.setAttribute("src", "imgage/main_img0"+num+".jpg")
-        }
-    </script>
+    신규회원 혜택
+    행운소福 설 기획전
+    멜라토닌 크림
+    플럼핑 립타투팩
+    
 </body>
 </html>

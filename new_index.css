@@ -19,7 +19,6 @@ header {
     margin-right: auto;
     background:linear-gradient(white 60px, rgba(255, 202, 202, 0.5) 50px, rgba(255, 111, 111, 0.5));
     height: 60px; 
-    overflow: hidden;
 
 }
 
@@ -48,6 +47,7 @@ ul {
     flex: 7;
     text-align: left;
 }
+
 
 .cell-1 img {
     margin-top: 10px;
@@ -87,6 +87,7 @@ ul {
     position: absolute;
     opacity: 0;
     visibility: hidden;
+    background-color: white;
 }
 
 .big-menu li {
@@ -156,4 +157,27 @@ ul {
     transition: all 0.3s ease-in-out;
     color: #e7be8e;
     padding-left: 5px;
+}
+
+.leftButton {
+    transform: rotate(180deg);
+    position: relative;
+    top: 289px;
+    left: 40px;
+}
+.rightButton {
+    float: right;
+    position: relative;
+    bottom: 360px;
+    right: 50px;
+}
+
+.BB {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#photo {
+    width: 99.8%;
 }
