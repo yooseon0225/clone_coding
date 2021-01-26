@@ -181,3 +181,15 @@ ul {
 #photo {
     width: 99.8%;
 }
+
+
+.img-change-menu ul{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-change-menu>ul>li {
+    flex: 2 1 auto;
+    font-size: 20px;
+}

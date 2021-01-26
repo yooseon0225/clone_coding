@@ -29,5 +29,5 @@ function showImg() {
     var objImg = document.getElementById("photo");
     objImg.src = imgArray[imgNum]
 
-    setTimeout("showImg()", 8000);
+    setTimeout("showImg()", 7000);
 }
