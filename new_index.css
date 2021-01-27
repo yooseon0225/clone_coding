@@ -182,20 +182,43 @@ ul {
     width: 99.8%;
 }
 
+.img-change-menu {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    border-bottom: 1px solid  rgba(0,0,0,.3);
+}
 
-.img-change-menu ul{
+
+.img-change-menu ul {
+    margin: 0;
+    padding: 0;
     display: flex;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+    height: 50px;
+
 }
 
-.img-change-menu>ul>li {
+
+.img-change-menu > ul > button {
+    background: none;
+    outline:none;
+    border: none;
     flex: 2 1 auto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color: rgba(0,0,0,.3)
+    padding-bottom: 15px;
+    color: rgba(0,0,0,.3);
 }
-.img-change-menu>ul>li:hover {
+
+.img-change-menu>ul>button:hover {
     color: rgba(0,0,0);
     transition: all 0.3s;
+    border-bottom: 1.2px solid rgba(0,0,0);
 }
+
+
+
