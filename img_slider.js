@@ -57,3 +57,9 @@ function changeMainImg(idx) {
 // border-bottom 부분 부드럽게 나오도록 수정
 // 사진 부드럽게 넘어가기 만들기
 // 버튼 hover 이 아니라 버튼 클릭 시 img-change-menu의 색상을 변경하도록 수정
+// menu header 부분이랑 연결해서 나오도록 수정 
+// li 위치에 관련없이 메뉴가 나오도록 수정
+// menu 천천히 내려오도록 수정 (dropdown)
+// 메인 이미지 넘어갈 때 img-change-menu의 색도 같이 변경
+
+

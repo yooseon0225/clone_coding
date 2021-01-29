@@ -73,3 +73,15 @@ flex 컨테이너가 flex 항목을 모두 포함할 만큼 넉넉한 공간을 
 flex-grow, flex-shrink, flex-basis 값을 각각 사용하지 않고 이 세 속성을 한번에 지정하는 flex 축약형을 많이 사용한다.
 
 ```
+##### translate3d : 3 차원 벡터가 특징, 좌표는 요소가 각 방향으로 이동하는 정도를 정의한다
+
+```
+translate3d(tx, ty, tz)
+
+perspective를 사용하지 않으면 translateZ의 변화를 느낄수 없다.
+그러나 perspective를 사용해 원근감을 주면 차이를 느낄 수 있다. 
+
+perspective-origin은 기준점을 지정해주는 속성이다 perspective-origin: center;
+다르게 위치를 지정해주면 생각하는 애니메이션과 다르게 왜곡이 일어날 수있다
+
+```
