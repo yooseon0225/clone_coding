@@ -76,7 +76,7 @@ flex-grow, flex-shrink, flex-basis 값을 각각 사용하지 않고 이 세 속
 ##### translate3d : 3 차원 벡터가 특징, 좌표는 요소가 각 방향으로 이동하는 정도를 정의한다
 
 ```
-translate3d(tx, ty, tz)
+translate3d(tx, ty, tz);
 
 perspective를 사용하지 않으면 translateZ의 변화를 느낄수 없다.
 그러나 perspective를 사용해 원근감을 주면 차이를 느낄 수 있다. 
