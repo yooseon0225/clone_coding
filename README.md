@@ -85,3 +85,33 @@ perspective-origin은 기준점을 지정해주는 속성이다 perspective-orig
 다르게 위치를 지정해주면 생각하는 애니메이션과 다르게 왜곡이 일어날 수있다
 
 ```
+
+##### animate 설명
+
+```
+:제이쿼리 구문.animate()
+$("선택자").animate({"속성명":"속성값"}, 시간, "가속도 함수")
+
+지속시간 (Duration)
+시간의 기본단위는 milliseconds
+높은 값을 주면 느리게 움직임
+낮은 값을 주면 빠르게 움직임
+설정을 하지 않은 경우 400 milliseconds로 세팅
+'fast', 'slow' 문자열 사용 가능
+
+콜백 함수 (Complete Function)
+움직이미 완료된 다음 해당하는 함수가 실행
+콜백함수는 인자를 가질 수 없습니다. 
+단, this 를 사용하여 움직임이 있었던 DOM 요소를 제어할 수 있습니다.
+
+ex) $('#clickMe').click(function(){
+    $('book').animate({
+        opacity: 0.25,
+        left: '+=50',
+        height: 'toggle'
+    }, 5000, function(){
+        //Animation complete.
+    })
+})
+
+```
