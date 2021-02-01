@@ -115,3 +115,11 @@ ex) $('#clickMe').click(function(){
 })
 
 ```
+
+##### z-index
+```
+z-index 속성은 위치 지정 요소와, 그 자손 또는 하위 플렉스 아이템의 Z축 순서를 지정한다.
+
+위치 지정 요소(position이 static 외의 다른 값인 요소)의 박스에 대해, z-index 속성은 다음 항목을 지정한다
+
+```
