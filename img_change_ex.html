@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    var now_img;
+    var last_img;
+
+    window.onload = function(){
+        setInterval("fn_change()",2000);
+    }
+
+    function fn_change(){
+        now_img = $("img").eq(0);
+        last_img = $("img").eq(-1);
+
+        last_img.addClass("z-idx").css("opacity",0).animate({"opacity":1},1000), function(){
+            $(".img_area").prepend(last_img);
+            now_img.removeClass("z-idx");
+        }
+    }
+    </script>
     <style>
         img {
             position: absolute;
@@ -12,15 +31,49 @@
         .z-idx{
             z-index: 1;
         }
-    </style>
+    </style> -->
+
+
+    <script language="JavaScript" type="text/javascript">
+        var img1 = new Image();
+        img1.src = "1.jpg";  //사용할 이미지들의 경로를 지정합니다.
+        var img2 = new Image();
+        img2.src = "2.jpg";
+        var img3 = new Image();
+        img3.src = "3.jpg";
+        
+        </script>
 </head>
 <body>
-    <div class="img_area">
-        <img class="z-idx" src="./images/1.jpg" alt="one">
-        <img src="./images/2.jpg" alt="two">
-        <img src="./images/3.jpg" alt="three">
-        <img src="./images/4.jpg" alt="four">
+    <!-- <div class="img_area">
+        <img class="z-idx" style="opacity: 1;" src="./images/1.jpg" alt="one">
+        <img style="opacity: 1;" src="./images/2.jpg" alt="two">
+        <img style="opacity: 1;" src="./images/3.jpg" alt="three">
+        <img style="opacity: 1;" src="./images/4.jpg" alt="four">
     </div>
-    <script src="./img_change_ex.js"></script>
+    <script src="./img_change_ex.js"></script> -->
+
+    <body onLoad="init()">
+        <div style="position: absolute; top: 100; left: 300;">  <!-- 이미지의 위치를 지정합니다. -->
+        <img src="1.jpg" name="blendObj" style="filter: blendTrans(duration=3)">
+        </div>
+        
+        <script language="JavaScript" type="text/javascript">
+        var maxLoops = 3;
+        var bInterval = 3;
+        var count = 2;
+        function init() {
+        blendObj.filters.blendTrans.apply();
+        document.images.blendObj.src = eval(count+".src");
+        blendObj.filters.blendTrans.play();
+        if (count < maxLoops) {
+          count++;
+        }
+        else {
+          count = 1;
+        }
+        setTimeout("init()", bInterval*1000+3000);
+        }
+        </script>
 </body>
 </html>
