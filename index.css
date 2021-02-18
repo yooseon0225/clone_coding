@@ -122,12 +122,19 @@ ul {
     visibility: hidden; */
     opacity: 0;
     visibility: hidden;
+    width: 100%;
+    max-width: 1245px;
+    padding: 0 30px;
+    margin: 0 auto;
+    font-size: 0;
 }
+
 
 
 
 .menu-in {
     margin-left: 60px;
+    border-right: 1px solid #e1e1e1;
 }
 
 .m-brand:hover .flex-brand{

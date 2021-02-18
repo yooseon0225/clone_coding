@@ -229,5 +229,8 @@ ul {
     transition: all 0ms ease 0s;
 }
 
+.right-border {
+    border-right: white;
+}
 
 
