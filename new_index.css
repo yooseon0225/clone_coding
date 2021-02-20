@@ -217,6 +217,7 @@ ul {
     font-weight: 600;
     padding-bottom: 15px;
     color: rgba(0,0,0,.3);
+    position: absolute;
 }
 
 .img-change-menu>ul>button:hover {
@@ -230,7 +231,7 @@ ul {
 }
 
 .right-border {
-    border-right: rgb(226, 226, 226);
+    border-right: rgb(194, 194, 194);
 }
 
 
