@@ -45,7 +45,7 @@ collapse: 겹치도록 지정
 inherit: 부모 요소의 값을 상속
 ```
 
-##### flex-direction
+#### flex-direction
 ```
 flex 컨테이너에 flex-direction 속성을 지정하면 flex 항목이 나열되는 방향을 변경
 
@@ -59,7 +59,7 @@ column 혹은 column-reverse 을 선택하면 주축은 페이지 상단에서 �
 
 ```
 
-##### 축약형 속성 flex
+#### 축약형 속성 flex
 ```
 flex-basis 속성은 항목의 크기를 결정
 기본값은 auto이다.
@@ -73,7 +73,7 @@ flex 컨테이너가 flex 항목을 모두 포함할 만큼 넉넉한 공간을 
 flex-grow, flex-shrink, flex-basis 값을 각각 사용하지 않고 이 세 속성을 한번에 지정하는 flex 축약형을 많이 사용한다.
 
 ```
-##### translate3d : 3 차원 벡터가 특징, 좌표는 요소가 각 방향으로 이동하는 정도를 정의한다
+#### translate3d : 3 차원 벡터가 특징, 좌표는 요소가 각 방향으로 이동하는 정도를 정의한다
 
 ```
 translate3d(tx, ty, tz);
@@ -86,7 +86,7 @@ perspective-origin은 기준점을 지정해주는 속성이다 perspective-orig
 
 ```
 
-##### animate 설명
+#### animate 설명
 
 ```
 :제이쿼리 구문.animate()
@@ -116,7 +116,7 @@ ex) $('#clickMe').click(function(){
 
 ```
 
-##### z-index
+#### z-index
 ```
 z-index 속성은 위치 지정 요소와, 그 자손 또는 하위 플렉스 아이템의 Z축 순서를 지정한다.
 
